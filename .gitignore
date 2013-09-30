@@ -1,0 +1,13 @@
+# Wordpress
+wp-config-local.php
+wp-content/upgrade.
+
+# Sass cache
+.sass-cache/
+
+# System files
+.log
+.DS_Store
+
+# Vagrant
+.vagrant
