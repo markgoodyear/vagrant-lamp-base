@@ -22,6 +22,9 @@ Structure
 
 Notes
 -----
+### Configuation
+- Configurations for Vagrant are available in the `Vagrantfile` file
+- Configurations for Puppet are available in the  `vagrant/manifests/config.pp` file
 
 ### Custom dot files
 Custom dot files can be added in `vagrant/files/dot/`
@@ -40,6 +43,6 @@ Access
 ------
 
 - Access the box by the IP set in the `Vagrantfile`
-- Alternately, set up an alias in the `vagrant/manifests/vhosts.pp` file—an example is included
+- Alternately, set up an alias in the `vagrant/manifests/config.pp` file—an example is included
 - LAN access uses your host machine IP along with the forwarded port set in the `Vagrantfile`. E.g. 192.168.2.14:8080
 - SSH into the box with the command `$ vagrant ssh`
