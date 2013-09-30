@@ -41,5 +41,5 @@ Access
 
 - Access the box by the IP set in the `Vagrantfile`
 - Alternately, set up an alias in the `vagrant/manifests/vhosts.pp` file—an example is included
-- LAN access uses your host machine IP along with the forwarded port set in the `Vagrantfile`. E.g. 192.168.2.14:6001
+- LAN access uses your host machine IP along with the forwarded port set in the `Vagrantfile`. E.g. 192.168.2.14:8080
 - SSH into the box with the command `$ vagrant ssh`
