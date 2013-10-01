@@ -129,18 +129,6 @@ class { 'mysql::server':
   config_hash   => { 'root_password' => 'root' }
 }
 
-# mysql::db { 'database':
-#   grant    => [
-#     'ALL'
-#   ],
-#   user     => 'root',
-#   password => 'root',
-#   host     => 'localhost',
-#   sql      => '/var/www/db/database.sql',
-#   charset  => 'utf8',
-#   require  => Class['mysql::server'],
-# }
-
 mysql::db { $db_name:
   grant    => [
     'ALL'
